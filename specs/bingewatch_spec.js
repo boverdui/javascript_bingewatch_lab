@@ -17,11 +17,8 @@ describe('BingeWatch', function () {
     season4 = new Season(4, 624);
     season5 = new Season(5, 624);
     season6 = new Season(6, 624);
-
     seasons = [season1, season2, season3, season4, season5, season6]
-
     tvShow = new TVShow("Spiral", seasons);
-
     bingeWatch = new BingeWatch(tvShow, 6);
   });
 
